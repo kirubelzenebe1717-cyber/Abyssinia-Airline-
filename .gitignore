@@ -1,0 +1,14 @@
+# Git Ignore for Abyssinia Airline
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Agents and logs
+.agents/
+*.log
+
+# Database tracking
+!database/
+!database/abyssinia_airlines.sqlite
